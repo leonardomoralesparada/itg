@@ -1,0 +1,15 @@
+.button-container {
+    height: 50px;
+    text-align: center;
+    border: 3px solid #FFFFFF;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 25px;
+    padding-right: 25px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}

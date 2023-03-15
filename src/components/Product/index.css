@@ -1,0 +1,94 @@
+.product-container {
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-container-image {
+    width: 50%;
+    background-color: rgb(0, 0, 0);
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-content {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.product-item {
+    padding-top: 20px;
+}
+
+.product-raw {
+    width: 50px;
+    border-bottom: 2px solid #696969;
+}
+
+.product-title {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.product-description {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.product-button {
+    padding-top: 40px;
+}
+
+.image-bg-size {
+    width: 50%;
+    height: 600px;
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+}
+
+.friend-wallpaper {
+    background-image: url('../../assets/amigos.jpeg');
+}
+
+.tower-wallpaper {
+    background-image: url('../../assets/edificio.jpeg');
+}
+
+.women-wallpaper {
+    background-image: url('../../assets/women.jpeg');
+}
+
+.children-wallpaper {
+    background-image: url('../../assets/children.png');
+}
+
+.product-gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dark-bg {
+    opacity: 0.4;
+}
+
+@media (max-width: 600px) {
+    .product-container {
+        width: 100%;
+    }
+
+    .product-container-image {
+        display: none;
+    }
+}
+  

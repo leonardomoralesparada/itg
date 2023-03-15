@@ -1,0 +1,72 @@
+.beach1-wallpaper {
+    background-image: url('../../assets/slider.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.beach2-wallpaper {
+    background-image: url('../../assets/slider2.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.beach3-wallpaper {
+    background-image: url('../../assets/slider3.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.slider-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-color: rgb(2, 5, 5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-center {
+    width: 140px;
+}
+
+.slider-content {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.slider-title {
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 100px;
+}
+
+.circle {
+    width: 20px;
+    height: 20px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.circle-content {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+
+.blur {
+    opacity: 0.5;
+}
